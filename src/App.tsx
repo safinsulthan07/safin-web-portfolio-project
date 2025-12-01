@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../src/App.css';
+import { useState } from 'react';
+import Navbar from './components/navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Feedback from './pages/Feedback';
+import Footer from './components/footer';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar setCurrentPage={setCurrentPage} />
+      {currentPage === 'Home' && <Home />}
+      {currentPage === 'About' && <About />}
+      {currentPage === 'Contact' && <Contact />}
+      {currentPage === 'Feedback' && <Feedback />}
+      <Footer />
     </div>
   );
 }

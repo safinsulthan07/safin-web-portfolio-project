@@ -1,0 +1,58 @@
+.about-page {
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.about-page h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 40px;
+}
+
+.section {
+  background-color: #161b22;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* space between cards */
+}
+
+.about-data {
+  background-color: #5b6778;
+  padding: 25px 30px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.about-data:hover {
+  transform: translateY(-5px);
+}
+
+.about-data h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #cfd3d4;
+  margin-bottom: 15px;
+}
+
+/* CARD PARAGRAPH */
+.about-data p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #c9c7c7;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-data {
+    padding: 20px;
+  }
+  .about-page h1 {
+    font-size: 28px;
+  }
+}

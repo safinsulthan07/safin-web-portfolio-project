@@ -1,0 +1,30 @@
+[
+  {
+    "section": "Personal Introduction",
+    "description": "“I’m Safin Sulthan.N, A passionate tech learner currently pursuing my M.Sc in Artificial Intelligence & Data Science at Central University of Andhra Pradesh. I enjoy solving real-world problems using technology, especially in the fields of machine learning, data engineering, and web development.”"
+  },
+  {
+    "section": "My  Background",
+    "description": "“My journey started with curiosity toward how machines learn. Over time, I explored Python, C, Java, database systems, and the foundations of AI. I applied this knowledge in projects like a Mental Health Prediction System using Machine Learning (Flask + HTML + CSS), and a Mock Technical Interview System.”"
+  },
+  {
+    "section": "Motivation",
+    "description": "“I enjoy building meaningful applications that make life simpler. Whether it’s machine learning models, full-stack web apps, or automation tools — I love turning ideas into working solutions.”"
+  },
+  {
+    "section": "My Technical Specializations",
+    "description": "“I specialize in Machine Learning and i'm learning to build UI/UX-friendly web applications using React and JavaScript. I also have strong knowledge in C-Language, Java and DBMS.”"
+  },
+  {
+    "section": " My Internship Experience",
+    "description": "“During my internship, I gained hands-on training in building ML models—covering preprocessing, feature engineering, classification algorithms, and deployment pipelines. I also worked on web development tasks involving HTML, CSS, and JavaScript.”"
+  },
+  {
+    "section": "Future Goals",
+    "description": "“My goal is to become a MERN Stack Developer and eventually move into Data Engineering roles. I want to work on scalable systems, cloud platforms, and AI-driven applications.”"
+  },
+  {
+    "section": "A Personal Touch",
+    "description": "“Outside work, I enjoy editing, travel storytelling, and sharing cinematic content through my travel page.”"
+  }
+]

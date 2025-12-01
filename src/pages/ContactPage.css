@@ -1,0 +1,58 @@
+/* ===============================
+   CONTACT PAGE CONTAINER
+================================*/
+.contact-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* PAGE TITLE */
+.contact-page h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 40px;
+}
+
+/* ===============================
+   CONTACT GRID LAYOUT
+================================*/
+.contact {
+  display: flex;
+  flex-direction: column; /* vertical stacking */
+  gap: 25px; /* spacing between each card */
+}
+
+/* ===============================
+   EACH CONTACT ITEM (Card)
+================================*/
+.contact-data {
+  background-color: #161b22;
+  padding: 25px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.09);
+  transition: 0.3s ease;
+}
+
+.contact-data:hover {
+  transform: translateY(-4px);
+}
+
+/* CONTACT HEADING (Title) */
+.contact-data h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #b6b7ba;
+  margin-bottom: 10px;
+}
+
+/* CONTACT VALUE */
+.contact-data h5 {
+  font-size: 17px;
+  color: #989595;
+  font-weight: 500;
+  word-break: break-word; /* prevents link breaking layout */
+}

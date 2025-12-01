@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Machine Learning & AI",
+    "description": "Model building, data preprocessing, and predictive analytics.",
+    "image": "/ml.png"
+  },
+  {
+    "title": "Data Annotation",
+    "description": "Hands-on experience with CVAT and Label Studio for image labeling.",
+    "image": "/annotation.jpg"
+  },
+  {
+    "title": "Web Development",
+    "description": "React, HTML, CSS, and basic full-stack skills.",
+    "image": "/webd.jpg"
+  }
+]

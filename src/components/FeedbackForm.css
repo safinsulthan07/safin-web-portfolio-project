@@ -1,0 +1,75 @@
+/* ===============================
+   FEEDBACK FORM CARD
+================================*/
+.feedback-form {
+  width: 100%;
+  max-width: 500px;
+
+  background-color: #161b22;
+  padding: 30px;
+  border-radius: 12px;
+
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ===============================
+   LABEL STYLE
+================================*/
+.feedback-form label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #84a4d4;
+}
+
+/* ===============================
+   INPUT & TEXTAREA STYLE
+================================*/
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #3e4651;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.2s ease;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #0d6efd;
+  outline: none;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.25);
+}
+
+/* TEXTAREA HEIGHT */
+.feedback-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* ===============================
+   SUBMIT BUTTON
+================================*/
+.submit-button {
+  background-color: #0d6efd;
+  color: white;
+  font-size: 16px;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #094db5;
+}
